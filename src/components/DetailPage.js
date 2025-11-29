@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from "react";
-import { useParams, Link, data } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 const API_URL = "https://69196eb99ccba073ee92e8ba.mockapi.io/students";
 
 export default function DetailPage() {
     const { id } = useParams();
-    const [student, setStudent] = usestate(null);
+    const [student, setStudent] = useState(null);
 
     useEffect(() => {
         fetch(`${API_URL}/${id}`)

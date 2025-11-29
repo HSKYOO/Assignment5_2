@@ -11,6 +11,9 @@ export default function UpdatePage() {
     const [updateCount, setUpdateCount] = useState(0);
 
     const nameRef = useRef();
+    const majorRef = useRef();
+    const ageRef = useRef();
+    const scoreRef = useRef();
 
     useEffect(() => {
         fetch(`${API_URL}/${id}`)
