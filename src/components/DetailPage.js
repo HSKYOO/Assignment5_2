@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function UpdatePage() {
+export default function DetailPage() {
     return(
         <></>
     );
