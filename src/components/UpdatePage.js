@@ -25,7 +25,7 @@ export default function UpdatePage() {
         const { name, value } = e.target;
 
         const updateStudent = { ...student, [name]: value};
-        setStudent(updatedStudent);
+        setStudent(updateStudent);
 
         // 이름 채워져있는지 확인
         if(name === "name" && value.trim() === "") {
