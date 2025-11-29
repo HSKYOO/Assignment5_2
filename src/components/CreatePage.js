@@ -47,7 +47,7 @@ export default function CreatePage() {
                 </div>
                 <div className="mb-3">
                     <label>Major</label>
-                    <input type="text" className="form-control" name="major" value={student.major} onChange={handleChange} ref={majoreRef} />
+                    <input type="text" className="form-control" name="major" value={student.major} onChange={handleChange} ref={majorRef} />
                 </div>
                 <div className="mb-3">
                     <label>Age</label>
