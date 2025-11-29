@@ -1,4 +1,4 @@
-import React, { useReducer } from "react";
+import React, { useRef, useState } from "react";
 import { useNavigate } from "react-router-dom"; 
 
 const API_URL = "https://69196eb99ccba073ee92e8ba.mockapi.io/students";
