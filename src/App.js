@@ -6,7 +6,7 @@ import UpdatePage from "./components/UpdatePage";
 import DetailPage from "./components/DetailPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter>
       <Routes>
@@ -19,5 +19,3 @@ function App() {
     </BrowserRouter>
   );
 }
-
-export default App;
