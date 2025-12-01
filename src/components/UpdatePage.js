@@ -31,6 +31,7 @@ export default function UpdatePage() {
         if(name === "name" && value.trim() === "") {
             return;
         }
+        
 
         fetch(`${API_URL}/${id}`, {
             method: "PUT",
