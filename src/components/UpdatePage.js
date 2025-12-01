@@ -27,10 +27,11 @@ export default function UpdatePage() {
         const updateStudent = { ...student, [name]: value};
         setStudent(updateStudent);
 
-        // 이름 채워져있는지 확인
+        // 이름 채워져있는지 확인.
         if(name === "name" && value.trim() === "") {
             return;
         }
+        
 
         fetch(`${API_URL}/${id}`, {
             method: "PUT",
